@@ -25,6 +25,6 @@ namespace EfCoreTutorialDotNet6.Data
                 );
         }
 
-        DbSet<Product>? Products { get; set; }
+        public DbSet<Product>? Products { get; set; }
     }
 }
